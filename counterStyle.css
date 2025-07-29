@@ -25,7 +25,7 @@ body {
 body div {
   background-color: var(--whColor);
   width: 450px;
-  height: 40vh;
+  height: 35rem;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
