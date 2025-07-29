@@ -1,0 +1,86 @@
+:root {
+  --bgColor: #333;
+  --whColor: #f1f1f1;
+  --grColor: #329652;
+  --gr1Color: #27743f;
+  --rdColor: #9c2020;
+  --rd1Color: #7b1919;
+  --blColor: #205a9c;
+  --bl1Color: #163e6c;
+}
+
+* {
+  font-family: Karla;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bgColor);
+  display: flex;
+  justify-content: center;
+  margin-top: 25vh;
+}
+
+body div {
+  background-color: var(--whColor);
+  width: 450px;
+  height: 40vh;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body div h3 {
+  text-align: center;
+  font-size: 30px;
+  padding: 25px;
+}
+
+body div h2 {
+  font-size: 75px;
+  padding: 20px;
+}
+
+body div div {
+  width: 100%;
+  margin-top: 30px;
+}
+
+body div button {
+  width: 60%;
+  height: 3rem;
+  border-radius: 15px;
+  margin-top: 10px;
+  color: var(--whColor);
+  font-size: 20px;
+}
+
+body div button:nth-child(1) {
+  background-color: var(--grColor);
+}
+
+body div button:nth-child(2) {
+  background-color: var(--rdColor);
+}
+
+body div button:nth-child(3) {
+  background-color: var(--blColor);
+}
+
+body div button:nth-child(1):hover {
+  background-color: var(--gr1Color);
+}
+
+body div button:nth-child(2):hover {
+  background-color: var(--rd1Color);
+}
+
+body div button:nth-child(3):hover {
+  background-color: var(--bl1Color);
+}
+
+body div div p {
+  padding: 25px;
+}
