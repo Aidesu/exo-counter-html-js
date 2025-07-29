@@ -24,6 +24,7 @@ decBtn.textContent = "- Decrement";
 resetBtn.textContent = "Reset";
 paraLimit.textContent = "Limit : "
 limitValue.textContent = limiteCounter;
+inputLimit.setAttribute("type", "number");
 
 // mise en page des elements 
 
