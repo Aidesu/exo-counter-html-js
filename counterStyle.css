@@ -7,6 +7,9 @@
   --rd1Color: #7b1919;
   --blColor: #205a9c;
   --bl1Color: #163e6c;
+  --btnColor: #b8b8b8;
+  --ppColor: rgb(87, 25, 87);
+  --pp1Color: rgb(79, 32, 122);
 }
 
 * {
@@ -90,17 +93,14 @@ body div #mySkullBtn {
   position: absolute;
   width: 40px;
   height: 40px;
-  background-color: #b8b8b8;
+  background-color: var(--btnColor);
   margin: 0 auto;
   margin-top: 5px;
   margin-right: 400px;
 }
 
-body div a:hover {
-}
-
 .feur {
-  background-color: rgb(87, 25, 87) !important;
+  background-color: var(--ppColor) !important;
 }
 
 .feur svg {
@@ -134,8 +134,20 @@ body div a:hover {
   color: var(--whColor);
 }
 
+.kuroModAnim {
+  animation-name: animBig;
+  transition: 0.1s;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+}
+
 .kuroMod div {
-  background-color: rgb(79, 32, 122);
+  background-color: var(--pp1Color);
+}
+
+.imgJs {
+  width: 10rem;
+  height: 10rem;
 }
 
 @keyframes animBig {
