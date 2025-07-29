@@ -105,8 +105,8 @@ paraLimit.remove();
     decBtn.textContent = counter**1.5;
     resetBtn.textContent = counter/2;
     if (counter >= 1000){
-        counter*1.5;
-    myNumbers.textContent = counter;
+    counter*=2.6;
+    myNumbers.textContent = counter.toExponential(4);
     }
     loop();
   }, 10);
