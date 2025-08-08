@@ -1,2 +1,2 @@
-# Exo-HTML-JS
-M5
+# Exo-counter-html-js
+M5 exercice-counter-html-js
